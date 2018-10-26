@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About OKCash</source>
-        <translation>Despre OKCash</translation>
+        <source>About FICTECpagos</source>
+        <translation>Despre FICTECpagos</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;OKCash&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;OKCash&lt;/b&gt;</translation>
+        <source>&lt;b&gt;FICTECpagos&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;FICTECpagos&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2015 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014-2015 The BlackCoin developers
-Copyright © 2014-2017 The Okcash Developers</source>
+Copyright © 2012-2018 The NovaCoin developers
+Copyright © 2018-2015 The BlackCoin developers
+Copyright © 2018-2017 The Fictecpagos Developers</source>
         <translation>Copyright © 2009-2015 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014-2015 The BlackCoin developers
-Copyright © 2014-2017 The Okcash Developers</translation>
+Copyright © 2012-2018 The NovaCoin developers
+Copyright © 2018-2015 The BlackCoin developers
+Copyright © 2018-2017 The Fictecpagos Developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your OKCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele OKCash pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your FICTECpagos addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele FICTECpagos pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -82,8 +82,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a OKCash address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă OKCash</translation>
+        <source>Sign a message to prove you own a FICTECpagos address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă FICTECpagos</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified OKCash address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă OKCash</translation>
+        <source>Verify a message to ensure it was signed with a specified FICTECpagos address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă FICTECpagos</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
-        <source>OKCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>OKCash se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>FICTECpagos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>FICTECpagos se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -379,8 +379,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about OKCash</source>
-        <translation>Arată informații despre OKCash</translation>
+        <source>Show information about FICTECpagos</source>
+        <translation>Arată informații despre FICTECpagos</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a OKCash address</source>
-        <translation>Trimite monede către o adresă OKCash</translation>
+        <source>Send coins to a FICTECpagos address</source>
+        <translation>Trimite monede către o adresă FICTECpagos</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for OKCash</source>
-        <translation>Modifică opțiuni de configurare pentru OKCash</translation>
+        <source>Modify configuration options for FICTECpagos</source>
+        <translation>Modifică opțiuni de configurare pentru FICTECpagos</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -474,8 +474,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-200"/>
-        <source>OKCash</source>
-        <translation>OKCash</translation>
+        <source>FICTECpagos</source>
+        <translation>FICTECpagos</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,8 +484,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About OKCash</source>
-        <translation>Despre OKCash</translation>
+        <source>&amp;About FICTECpagos</source>
+        <translation>Despre FICTECpagos</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -541,13 +541,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>OKCash client</source>
-        <translation>Clientul OKCash</translation>
+        <source>FICTECpagos client</source>
+        <translation>Clientul FICTECpagos</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to OKCash network</source>
-        <translation><numerusform>%n conexiune activă la reteaua OKCash</numerusform><numerusform>%n conexiuni active la reteaua OKCash</numerusform><numerusform>%n conexiuni active la reteaua OKCash</numerusform></translation>
+        <source>%n active connection(s) to FICTECpagos network</source>
+        <translation><numerusform>%n conexiune activă la reteaua FICTECpagos</numerusform><numerusform>%n conexiuni active la reteaua FICTECpagos</numerusform><numerusform>%n conexiuni active la reteaua FICTECpagos</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -661,8 +661,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid OKCash address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa OKCash invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FICTECpagos address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa FICTECpagos invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -721,8 +721,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. OKCash can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. OKCash nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. FICTECpagos can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. FICTECpagos nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid OKCash address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă OKCash validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FICTECpagos address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă FICTECpagos validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>OKCash-Qt</source>
-        <translation>OKCash-Qt</translation>
+        <source>FICTECpagos-Qt</source>
+        <translation>FICTECpagos-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start OKCash after logging in to the system.</source>
-        <translation>Pornește OKCash imdiat după logarea în sistem</translation>
+        <source>Automatically start FICTECpagos after logging in to the system.</source>
+        <translation>Pornește FICTECpagos imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start OKCash on system login</source>
-        <translation>$Pornește OKCash la logarea în sistem</translation>
+        <source>&amp;Start FICTECpagos on system login</source>
+        <translation>$Pornește FICTECpagos la logarea în sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1172,8 +1172,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the OKCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul OKCash pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the FICTECpagos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul FICTECpagos pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1182,8 +1182,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the OKCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua OKCash prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the FICTECpagos network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua FICTECpagos prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1257,8 +1257,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting OKCash.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea OKCash.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FICTECpagos.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea FICTECpagos.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1272,8 +1272,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show OKCash addresses in the transaction list or not.</source>
-        <translation>Dacă să arate adrese OKCash din lista de tranzacție sau nu.</translation>
+        <source>Whether to show FICTECpagos addresses in the transaction list or not.</source>
+        <translation>Dacă să arate adrese FICTECpagos din lista de tranzacție sau nu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1319,8 +1319,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting OKCash.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea OKCash.</translation>
+        <source>This setting will take effect after restarting FICTECpagos.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea FICTECpagos.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1338,8 +1338,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OKCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua OKCash după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FICTECpagos network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua FICTECpagos după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1554,8 +1554,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the OKCash-Qt help message to get a list with possible OKCash command-line options.</source>
-        <translation>Afișa mesajul de ajutor OKCash-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă OKCash.</translation>
+        <source>Show the FICTECpagos-Qt help message to get a list with possible FICTECpagos command-line options.</source>
+        <translation>Afișa mesajul de ajutor FICTECpagos-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă FICTECpagos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1574,13 +1574,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>OKCash - Debug window</source>
-        <translation>OKCash - fereastră depanare</translation>
+        <source>FICTECpagos - Debug window</source>
+        <translation>FICTECpagos - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>OKCash Core</source>
-        <translation>OKCash Core</translation>
+        <source>FICTECpagos Core</source>
+        <translation>FICTECpagos Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1589,8 +1589,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the OKCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare OKCash din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the FICTECpagos debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare FICTECpagos din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1599,8 +1599,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the OKCash RPC console.</source>
-        <translation>Bine ati venit la consola OKCash RPC.</translation>
+        <source>Welcome to the FICTECpagos RPC console.</source>
+        <translation>Bine ati venit la consola FICTECpagos RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1758,8 +1758,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Introduceți o adresă OKCash(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Introduceți o adresă FICTECpagos(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1858,8 +1858,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid OKCash address</source>
-        <translation>Atenție: Adresă OKCash invalidă</translation>
+        <source>WARNING: Invalid FICTECpagos address</source>
+        <translation>Atenție: Adresă FICTECpagos invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1932,8 +1932,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Introduceți o adresă OKCash(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Introduceți o adresă FICTECpagos(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
 </context>
 <context>
@@ -1993,8 +1993,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this OKCash address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă OKCash</translation>
+        <source>Sign the message to prove you own this FICTECpagos address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă FICTECpagos</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2025,8 +2025,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified OKCash address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă OKCash</translation>
+        <source>Verify the message to ensure it was signed with the specified FICTECpagos address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă FICTECpagos</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2036,8 +2036,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Introduceți o adresă OKCash(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Introduceți o adresă FICTECpagos(ex:PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2046,8 +2046,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter OKCash signature</source>
-        <translation>Introduceti semnatura OKCash</translation>
+        <source>Enter FICTECpagos signature</source>
+        <translation>Introduceti semnatura FICTECpagos</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2617,8 +2617,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>OKCash version</source>
-        <translation>Versiune OKCash</translation>
+        <source>FICTECpagos version</source>
+        <translation>Versiune FICTECpagos</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2647,8 +2647,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: okcash.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: okcash.conf)</translation>
+        <source>Specify configuration file (default: fictecpagos.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: fictecpagos.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2802,8 +2802,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OKCash will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit OKCash nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FICTECpagos will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit FICTECpagos nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2998,7 +2998,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FICTECpagos Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
 Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=okcashrpc
@@ -3007,7 +3007,7 @@ rpcpassword=%s
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
-de exemplu: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.com
+de exemplu: alertnotify=echo %%s | mail -s &quot;FICTECpagos Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3132,13 +3132,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  OKCash is probably already running.</source>
-        <translation>Nu se poate obtine un lock pe directorul de date &amp;s. OKCash probabil ruleaza deja.</translation>
+        <source>Cannot obtain a lock on data directory %s.  FICTECpagos is probably already running.</source>
+        <translation>Nu se poate obtine un lock pe directorul de date &amp;s. FICTECpagos probabil ruleaza deja.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>OKCash</source>
-        <translation>OKCash</translation>
+        <source>FICTECpagos</source>
+        <translation>FICTECpagos</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3172,13 +3172,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of OKCash</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de OKCash</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FICTECpagos</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de FICTECpagos</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart OKCash to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați OKCash pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart FICTECpagos to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați FICTECpagos pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3247,8 +3247,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. OKCash is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil OKCash ruleaza</translation>
+        <source>Unable to bind to %s on this computer. FICTECpagos is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil FICTECpagos ruleaza</translation>
     </message>
     <message>
         <location line="-97"/>

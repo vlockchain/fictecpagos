@@ -157,7 +157,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // NovaCoin: check prefix
-    if(uri.scheme() != QString("okcash"))
+    if(uri.scheme() != QString("fictecpagos"))
         return false;
 
     SendCoinsRecipient rv;
@@ -202,13 +202,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert okcash:// to okcash:
+    // Convert fictecpagos:// to fictecpagos:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("okcash://"))
+    if(uri.startsWith("fictecpagos://"))
     {
-        uri.replace(0, 12, "okcash:");
+        uri.replace(0, 12, "fictecpagos:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -375,7 +375,7 @@ bool ToolTipToRichTextFilter::eventFilter(QObject *obj, QEvent *evt)
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "OKCash.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "FICTECpagos.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -457,7 +457,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "okcash.desktop";
+    return GetAutostartDir() / "fictecpagos.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -499,13 +499,13 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n" \
                    << "Version=" << FormatFullVersion() << "\n" \
                    << "Type=Application\n" \
-                   << "Name=OKCash\n" \
+                   << "Name=FICTECpagos\n" \
                    << "Exec=" << pszExePath << "%u -min\n" \
                    << "Icon=" <<  QFileInfo(":/icons/bitcoin").absoluteFilePath().toStdString() << "\n" \
                    << "Terminal=false\n" \
                    << "Hidden=false\n" \
                    << "Categories=Application;Network;\n" \
-                   << "MimeType=x-scheme-handler/okcash;\n";
+                   << "MimeType=x-scheme-handler/fictecpagos;\n";
         optionFile.close();
     }
     return true;
@@ -523,10 +523,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("OKCash") + " " + tr("version") + " " +
+    header = tr("FICTECpagos") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  okcash [" + tr("command-line options") + "]                     " + "\n";
+        "  fictecpagos [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -535,7 +535,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("OKCash"));
+    setWindowTitle(tr("FICTECpagos"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

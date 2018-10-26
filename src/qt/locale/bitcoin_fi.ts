@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About OKCash</source>
+        <source>About FICTECpagos</source>
         <translation>Tietoa OKCashista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;OKCash&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;OKCash&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;FICTECpagos&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;FICTECpagos&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2015 The Bitcoin developers
-Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014-2015 The BlackCoin developers
-Copyright © 2014-2017 The Okcash Developers</source>
+Copyright © 2012-2018 The NovaCoin developers
+Copyright © 2018-2015 The BlackCoin developers
+Copyright © 2018-2017 The Fictecpagos Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -65,8 +65,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your OKCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat OKCash-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your FICTECpagos addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat FICTECpagos-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a OKCash address</source>
-        <translation>Allekirjoita viesti osoittaaksesi OKCash-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a FICTECpagos address</source>
+        <translation>Allekirjoita viesti osoittaaksesi FICTECpagos-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified OKCash address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen OKCash-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified FICTECpagos address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen FICTECpagos-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>OKCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>OKCash-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>FICTECpagos will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>FICTECpagos-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,7 +377,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about OKCash</source>
+        <source>Show information about FICTECpagos</source>
         <translation>Näytä tietoja OKCashista</translation>
     </message>
     <message>
@@ -427,12 +427,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a OKCash address</source>
-        <translation>Lähetä kolikkoja OKCash osoitteeseen</translation>
+        <source>Send coins to a FICTECpagos address</source>
+        <translation>Lähetä kolikkoja FICTECpagos osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for OKCash</source>
+        <source>Modify configuration options for FICTECpagos</source>
         <translation>Mukauta OKCashin konfigurointiasetuksia</translation>
     </message>
     <message>
@@ -472,8 +472,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>OKCash</source>
-        <translation>OKCash</translation>
+        <source>FICTECpagos</source>
+        <translation>FICTECpagos</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,7 +482,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About OKCash</source>
+        <source>&amp;About FICTECpagos</source>
         <translation>&amp;Tietoa OKCashista</translation>
     </message>
     <message>
@@ -539,13 +539,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>OKCash client</source>
-        <translation>OKCash-asiakas</translation>
+        <source>FICTECpagos client</source>
+        <translation>FICTECpagos-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to OKCash network</source>
-        <translation><numerusform>%n aktiivinen yhteys OKCash-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä OKCash-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to FICTECpagos network</source>
+        <translation><numerusform>%n aktiivinen yhteys FICTECpagos-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä FICTECpagos-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -658,8 +658,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid OKCash address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä OKCash-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FICTECpagos address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä FICTECpagos-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -718,8 +718,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. OKCash can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. OKCash-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. FICTECpagos can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. FICTECpagos-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1052,8 +1052,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid OKCash address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty OKCash-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FICTECpagos address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty FICTECpagos-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,8 +1071,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>OKCash-Qt</source>
-        <translation>OKCash-Qt</translation>
+        <source>FICTECpagos-Qt</source>
+        <translation>FICTECpagos-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1144,13 +1144,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start OKCash after logging in to the system.</source>
-        <translation>Käynnistä OKCash-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start FICTECpagos after logging in to the system.</source>
+        <translation>Käynnistä FICTECpagos-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start OKCash on system login</source>
-        <translation>%Käynnistä OKCash-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start FICTECpagos on system login</source>
+        <translation>%Käynnistä FICTECpagos-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1169,8 +1169,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the OKCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa OKCash-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the FICTECpagos client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa FICTECpagos-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the OKCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä OKCash-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the FICTECpagos network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä FICTECpagos-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting OKCash.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta OKCash-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FICTECpagos.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta FICTECpagos-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1269,8 +1269,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show OKCash addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota OKCash-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show FICTECpagos addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota FICTECpagos-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1316,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting OKCash.</source>
-        <translation>Tämä asetus tulee voimaan vasta OKCash-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting FICTECpagos.</source>
+        <translation>Tämä asetus tulee voimaan vasta FICTECpagos-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OKCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti OKCash-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FICTECpagos network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti FICTECpagos-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1551,8 +1551,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the OKCash-Qt help message to get a list with possible OKCash command-line options.</source>
-        <translation>Näytä OKCash-Qt:n avustusohje saadaksesi listan käytettävistä OKCashin komentokehotteen määritteistä.</translation>
+        <source>Show the FICTECpagos-Qt help message to get a list with possible FICTECpagos command-line options.</source>
+        <translation>Näytä FICTECpagos-Qt:n avustusohje saadaksesi listan käytettävistä OKCashin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1571,12 +1571,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>OKCash - Debug window</source>
-        <translation>OKCash - Debug-ikkuna</translation>
+        <source>FICTECpagos - Debug window</source>
+        <translation>FICTECpagos - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>OKCash Core</source>
+        <source>FICTECpagos Core</source>
         <translation>OKCashin ydin</translation>
     </message>
     <message>
@@ -1586,8 +1586,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the OKCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa OKCash-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the FICTECpagos debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa FICTECpagos-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1596,7 +1596,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the OKCash RPC console.</source>
+        <source>Welcome to the FICTECpagos RPC console.</source>
         <translation>Tervetuloa OKCashin RPC-konsoliin.</translation>
     </message>
     <message>
@@ -1755,8 +1755,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Syötä OKCash-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Syötä FICTECpagos-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1855,8 +1855,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid OKCash address</source>
-        <translation>VAROITUS: Epäkelpo OKCash-osoite</translation>
+        <source>WARNING: Invalid FICTECpagos address</source>
+        <translation>VAROITUS: Epäkelpo FICTECpagos-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1929,8 +1929,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Syötä OKCash-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Syötä FICTECpagos-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1990,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this OKCash address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän OKCash-osoitteen</translation>
+        <source>Sign the message to prove you own this FICTECpagos address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän FICTECpagos-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2022,8 +2022,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified OKCash address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä OKCash-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified FICTECpagos address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä FICTECpagos-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter an OKCash address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
-        <translation>Syötä OKCash-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
+        <source>Enter an FICTECpagos address (e.g. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</source>
+        <translation>Syötä FICTECpagos-osoite (esim. PzjjetSdTwrppUwwNUo1GFHYTibzJi77jM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2043,8 +2043,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter OKCash signature</source>
-        <translation>Syötä OKCash-allekirjoitus</translation>
+        <source>Enter FICTECpagos signature</source>
+        <translation>Syötä FICTECpagos-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2614,7 +2614,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>OKCash version</source>
+        <source>FICTECpagos version</source>
         <translation>OKCashin versio</translation>
     </message>
     <message>
@@ -2644,8 +2644,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: okcash.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: okcash.conf)</translation>
+        <source>Specify configuration file (default: fictecpagos.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: fictecpagos.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2799,8 +2799,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OKCash will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, OKCash ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FICTECpagos will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, FICTECpagos ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2995,7 +2995,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FICTECpagos Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
@@ -3005,7 +3005,7 @@ rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;OKCash Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;FICTECpagos Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,13 +3130,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  OKCash is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. OKCash-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  FICTECpagos is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. FICTECpagos-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>OKCash</source>
-        <translation>OKCash</translation>
+        <source>FICTECpagos</source>
+        <translation>FICTECpagos</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of OKCash</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version OKCash-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FICTECpagos</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version FICTECpagos-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart OKCash to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä OKCash-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart FICTECpagos to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä FICTECpagos-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. OKCash is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. OKCash-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. FICTECpagos is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. FICTECpagos-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

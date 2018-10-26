@@ -461,7 +461,7 @@ bool OKCashBridge::sendCoins(bool fUseCoinControl, QString sChangeAddr)
     QStringList formatted;
     foreach(const SendCoinsRecipient &rcp, recipients)
     {
-        int inputType; // 0 OK, 1 OKCash
+        int inputType; // 0 OK, 1 FICTECpagos
         switch(rcp.txnTypeInd)
         {
             case TXT_OK_TO_OK:
@@ -626,7 +626,7 @@ bool OKCashBridge::sendCoins(bool fUseCoinControl, QString sChangeAddr)
             return false;
         case WalletModel::SCR_AmountWithFeeExceedsOKCashBalance:
             QMessageBox::warning(window, tr("Send Coins"),
-                tr("The total exceeds your okcash balance when the %1 transaction fee is included.").arg(BitcoinUnits::formatWithUnit(BitcoinUnits::OK, sendstatus.fee)),
+                tr("The total exceeds your fictecpagos balance when the %1 transaction fee is included.").arg(BitcoinUnits::formatWithUnit(BitcoinUnits::OK, sendstatus.fee)),
                 QMessageBox::Ok, QMessageBox::Ok);
             return false;
         case WalletModel::SCR_Error:
@@ -1284,7 +1284,7 @@ QVariantMap OKCashBridge::txnDetails(QString blkHash, QString txnHash)
             if (txn.nVersion == ANON_TXN_VERSION
                 && txin.IsAnonInput())
             {
-                sAddr = "OKCash";
+                sAddr = "FICTECpagos";
                 std::vector<uint8_t> vchImage;
                 txin.ExtractKeyImage(vchImage);
 
@@ -1341,7 +1341,7 @@ QVariantMap OKCashBridge::txnDetails(QString blkHash, QString txnHash)
 
              if( txn.nVersion == ANON_TXN_VERSION
                  && txout.IsAnonOutput() )
-                 sAddr = "OKCash";
+                 sAddr = "FICTECpagos";
              else
              {
                  CTxDestination address;

@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The Okcash Developers
+// Copyright (c) 2018 The Fictecpagos Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -108,7 +108,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", OKCashGUI::tr("A fatal error occurred. OKCash can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", OKCashGUI::tr("A fatal error occurred. FICTECpagos can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(okcash);
+    Q_INIT_RESOURCE(fictecpagos);
     QApplication app(argc, argv);
     
     // Do this early as we don't want to bother initializing if we are just calling IPC
@@ -138,12 +138,12 @@ int main(int argc, char *argv[])
     // Command-line options take precedence:
     ParseParameters(argc, argv);
 
-    // ... then okcash.conf:
+    // ... then fictecpagos.conf:
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
         // This message can not be translated, as translation is not initialized yet
         // (which not yet possible because lang=XX can be overridden in bitcoin.conf in the data directory)
-        QMessageBox::critical(0, "OKCash",
+        QMessageBox::critical(0, "FICTECpagos",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -151,12 +151,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("okcash");
-    app.setOrganizationDomain("okcash.co");
+    app.setOrganizationName("fictecpagos");
+    app.setOrganizationDomain("fictecpagos.co");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("OKCash-testnet");
+        app.setApplicationName("FICTECpagos-testnet");
     else
-        app.setApplicationName("OKCash");
+        app.setApplicationName("FICTECpagos");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -260,7 +260,7 @@ int main(int argc, char *argv[])
                 }
                 
                 // Now that initialization/startup is done, process any command-line
-                // okcash: URIs
+                // fictecpagos: URIs
                 QObject::connect(paymentServer, SIGNAL(receivedURI(QString)), &window, SLOT(handleURI(QString)));
                 QTimer::singleShot(100, paymentServer, SLOT(uiReady()));
 
@@ -273,7 +273,7 @@ int main(int argc, char *argv[])
                 guiref = 0;
             }
             // Shutdown the core and its threads, but don't exit Qt here
-            LogPrintf("OKCash shutdown.\n\n");
+            LogPrintf("FICTECpagos shutdown.\n\n");
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();

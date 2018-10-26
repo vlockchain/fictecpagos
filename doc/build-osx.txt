@@ -12,7 +12,7 @@ Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building OKCash QT, the
+See readme-qt.rst for instructions on building FICTECpagos QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -41,12 +41,12 @@ sudo port install qrencode
 
 4.  Now you should be able to build okcashd:
 
-cd okcash/src
+cd fictecpagos/src
 make -f makefile.osx
 
 Run:
   ./okcashd --help  # for a list of command-line options.
 Run
-  ./okcashd -daemon # to start the okcash daemon.
+  ./okcashd -daemon # to start the fictecpagos daemon.
 Run
   ./okcashd help # When the daemon is running, to get a list of RPC commands

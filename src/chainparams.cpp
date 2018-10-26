@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
-// Thanks and Credits for Technologies found in OKCash: Bitcoin, Novacoin, Blackcoin, Bitmessage, Shadowcoin, Cryptonote
+// Thanks and Credits for Technologies found in FICTECpagos: Bitcoin, Novacoin, Blackcoin, Bitmessage, Shadowcoin, Cryptonote
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "assert.h"
@@ -165,7 +165,7 @@ public:
         bnProofOfStakeLimit = CBigNum(~uint256(0) >> 20);
         bnProofOfStakeLimitV2 = CBigNum(~uint256(0) >> 48);
         
-        const char* pszTimestamp = "www.cryptocoinsnews.com/nydfss-ben-lawsky-reveals-plans-transitional-bitlicense-money2020/2014/11/03";
+        const char* pszTimestamp = "www.cryptocoinsnews.com/nydfss-ben-lawsky-reveals-plans-transitional-bitlicense-money2020/2018/11/03";
         CTransaction txNew;
         txNew.nTime = GENESIS_BLOCK_TIME;
         txNew.vin.resize(1);
@@ -186,12 +186,12 @@ public:
         assert(hashGenesisBlock == uint256("0x0000046309984501e5e724498cddb4aff41a126927355f64b44f1b8bba4f447e"));
         assert(genesis.hashMerkleRoot == uint256("0xeb465c4bc52c2730efca9ed897e1581f6266ba8d630e282b140d61a00e422108"));
         
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed1.okcash.co"));
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed2.okcash.co"));
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed3.okcash.co"));
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed4.okcash.co"));
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed5.okcash.co"));
-        vSeeds.push_back(CDNSSeedData("okcash.co", "seed6.okcash.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed1.fictecpagos.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed2.fictecpagos.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed3.fictecpagos.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed4.fictecpagos.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed5.fictecpagos.co"));
+        vSeeds.push_back(CDNSSeedData("fictecpagos.co", "seed6.fictecpagos.co"));
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(55)                    .convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[SCRIPT_ADDRESS] = list_of(28)                   .convert_to_container<std::vector<unsigned char> >();

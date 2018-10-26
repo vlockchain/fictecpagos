@@ -86,7 +86,7 @@
 * $Date: 2013-08-24 (Sat, 24 Aug 2013) $
 * $version 1.6.5    - Merged a few pull requests fixing various bugs, added AMD support.
 *
-* $Date: 2014-06-04 (Wed, 04 June 2014) $
+* $Date: 2018-06-04 (Wed, 04 June 2018) $
 * $version 1.6.6 	- Merge of pull requests.
 *    				- IE10 touch support 
 *    				- Only prevent default event handling on valid swipe

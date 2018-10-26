@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The Okcash Developers
+// Copyright (c) 2018 The Fictecpagos Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -88,10 +88,10 @@ OKCashGUI::OKCashGUI(QWidget *parent):
     setCentralWidget(webView);
 
     resize(1280, 720);
-    setWindowTitle(tr("OKCash") + " - " + tr("Client"));
+    setWindowTitle(tr("FICTECpagos") + " - " + tr("Client"));
 #ifndef Q_OS_MAC
-    qApp->setWindowIcon(QIcon(":icons/okcash"));
-    setWindowIcon(QIcon(":icons/okcash"));
+    qApp->setWindowIcon(QIcon(":icons/fictecpagos"));
+    setWindowIcon(QIcon(":icons/fictecpagos"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -129,9 +129,9 @@ OKCashGUI::OKCashGUI(QWidget *parent):
     connect(documentFrame, SIGNAL(urlChanged(QUrl)),                SLOT(urlClicked(const QUrl&)));
 
 #ifdef Q_OS_WIN
-    QFile html("C:/okcash/index.html");
+    QFile html("C:/fictecpagos/index.html");
 #else
-    QFile html("/opt/okcash/index.html");
+    QFile html("/opt/fictecpagos/index.html");
 #endif
 
     if(html.exists())
@@ -182,14 +182,14 @@ void OKCashGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About OKCash"), this);
-    aboutAction->setToolTip(tr("Show information about OKCash"));
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About FICTECpagos"), this);
+    aboutAction->setToolTip(tr("Show information about FICTECpagos"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for OKCash"));
+    optionsAction->setToolTip(tr("Modify configuration options for FICTECpagos"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -272,7 +272,7 @@ void OKCashGUI::setClientModel(ClientModel *clientModel)
             if (sMode.length() > 0)
                 sMode[0] = sMode[0].toUpper();
 
-            setWindowTitle(tr("OKCash") + " - " + tr("Wallet") + ", " + sMode);
+            setWindowTitle(tr("FICTECpagos") + " - " + tr("Wallet") + ", " + sMode);
         };
 
         // Replace some strings and icons, when using the testnet
@@ -287,7 +287,7 @@ void OKCashGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("OKCash client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("FICTECpagos client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/okcash_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -363,8 +363,8 @@ void OKCashGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("OKCash client"));
-    trayIcon->setIcon(QIcon(":/icons/okcash"));
+    trayIcon->setToolTip(tr("FICTECpagos client"));
+    trayIcon->setIcon(QIcon(":/icons/fictecpagos"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
           this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
     trayIcon->show();
@@ -425,7 +425,7 @@ void OKCashGUI::setNumConnections(int count)
     default:         icon = "qrc:///icons/connect_6"; break;
     }
     connectionsIcon.setAttribute("src", icon);
-    connectionsIcon.setAttribute("title", tr("%n active connection(s) to OKCash network", "", count));
+    connectionsIcon.setAttribute("title", tr("%n active connection(s) to FICTECpagos network", "", count));
 }
 
 void OKCashGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -754,7 +754,7 @@ void OKCashGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             bridge->triggerElement("#navitems a[href=#send]", "click");
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid OKCash address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid FICTECpagos address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -777,7 +777,7 @@ void OKCashGUI::handleURI(QString strURI)
         showNormalIfMinimized();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid OKCash address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid FICTECpagos address or malformed URI parameters."));
 }
 
 void OKCashGUI::setEncryptionStatus(int status)

@@ -1,9 +1,9 @@
-Compiling / integration for OKCash in to your Platform
+Compiling / integration for FICTECpagos in to your Platform
 
-See doc/readme-qt.rst for instructions on building OKCash QT,
+See doc/readme-qt.rst for instructions on building FICTECpagos QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of OKCash.
+implementation of FICTECpagos.
 
 See doc/build-*.txt for instructions on building okcashd,
 the intended-for-services, no-graphical-interface, reference
-implementation of OKCash.
+implementation of FICTECpagos.

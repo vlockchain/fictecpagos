@@ -3,10 +3,10 @@
         <file>src/qt/res/index.html</file>
     </qresource>
     <qresource prefix="/icons">
-        <file alias="okcash">src/qt/res/icons/okcash-80.png</file>
-        <file alias="okcash_testnet">src/qt/res/icons/okcash-80.png</file>
-        <file alias="toolbar">src/qt/res/icons/okcash-16.png</file>
-        <file alias="toolbar_testnet">src/qt/res/icons/okcash-16.png</file>
+        <file alias="fictecpagos">src/qt/res/icons/fictecpagos-80.png</file>
+        <file alias="okcash_testnet">src/qt/res/icons/fictecpagos-80.png</file>
+        <file alias="toolbar">src/qt/res/icons/fictecpagos-16.png</file>
+        <file alias="toolbar_testnet">src/qt/res/icons/fictecpagos-16.png</file>
         <file alias="address-book">src/qt/res/icons/address-book.png</file>
         <file alias="connect_0">src/qt/res/icons/connect0_16.png</file>
         <file alias="connect_1">src/qt/res/icons/connect1_16.png</file>

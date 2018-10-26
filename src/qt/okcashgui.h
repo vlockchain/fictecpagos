@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The Okcash Developers
+// Copyright (c) 2018 The Fictecpagos Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +33,7 @@ class QUrl;
 QT_END_NAMESPACE
 
 /**
-  OKCash GUI main class. This class represents the main window of the OKCash UI. It communicates with both the client and
+  FICTECpagos GUI main class. This class represents the main window of the FICTECpagos UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
 class OKCashGUI : public QMainWindow

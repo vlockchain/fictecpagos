@@ -916,7 +916,7 @@ int64_t CWallet::GetOKCashDebit(const CTxIn& txin) const
     if (!txin.IsAnonInput())
         return 0;
 
-    // -- amount of owned okcash decreased
+    // -- amount of owned fictecpagos decreased
     // TODO: store links in memory
 
     {
@@ -4320,7 +4320,7 @@ bool CWallet::SendOkToAnon(CStealthAddress& sxAddress, int64_t nValue, std::stri
 
     if (vNodes.empty())
     {
-        sError = _("Error: OKCash is not connected!");
+        sError = _("Error: FICTECpagos is not connected!");
         return false;
     };
 
@@ -4435,7 +4435,7 @@ bool CWallet::SendAnonToAnon(CStealthAddress& sxAddress, int64_t nValue, int nRi
 
     if (vNodes.empty())
     {
-        sError = _("Error: OKCash is not connected!");
+        sError = _("Error: FICTECpagos is not connected!");
         return false;
     };
 
@@ -4448,7 +4448,7 @@ bool CWallet::SendAnonToAnon(CStealthAddress& sxAddress, int64_t nValue, int nRi
 
     if (nValue + nTransactionFee > GetOKCashBalance())
     {
-        sError = "Insufficient okcash funds";
+        sError = "Insufficient fictecpagos funds";
         return false;
     };
 
@@ -4539,7 +4539,7 @@ bool CWallet::SendAnonToOk(CStealthAddress& sxAddress, int64_t nValue, int nRing
 
     if (vNodes.empty())
     {
-        sError = _("Error: OKCash is not connected!");
+        sError = _("Error: FICTECpagos is not connected!");
         return false;
     };
 
@@ -4552,7 +4552,7 @@ bool CWallet::SendAnonToOk(CStealthAddress& sxAddress, int64_t nValue, int nRing
 
     if (nValue + nTransactionFee > GetOKCashBalance())
     {
-        sError = "Insufficient okcash funds";
+        sError = "Insufficient fictecpagos funds";
         return false;
     };
 
@@ -4830,7 +4830,7 @@ bool CWallet::EstimateAnonFee(int64_t nValue, int nRingSize, std::string& sNarr,
 
     if (nValue + nTransactionFee > GetOKCashBalance())
     {
-        sError = "Insufficient okcash funds";
+        sError = "Insufficient fictecpagos funds";
         return false;
     };
 

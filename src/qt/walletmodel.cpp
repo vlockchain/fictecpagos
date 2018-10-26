@@ -416,7 +416,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoinsAnon(const QList<SendCoinsRec
         return SendCoinsReturn(SCR_ErrorWithMsg, 0, QString::fromStdString("Block chain must be fully synced first."));
 
     if (vNodes.empty())
-        return SendCoinsReturn(SCR_ErrorWithMsg, 0, QString::fromStdString("OKCash is not connected!"));
+        return SendCoinsReturn(SCR_ErrorWithMsg, 0, QString::fromStdString("FICTECpagos is not connected!"));
 
 
     // -- verify input type and ringsize
@@ -508,7 +508,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoinsAnon(const QList<SendCoinsRec
 
             } else
             {
-                // -- out okcash
+                // -- out fictecpagos
                 CScript scriptNarration; // needed to match output id of narr
                 if (!wallet->CreateAnonOutputs(&sxAddrTo, nValue, sNarr, vecSend, scriptNarration))
                 {
@@ -569,7 +569,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoinsAnon(const QList<SendCoinsRec
 
         } else
         {
-            // -- in okcash
+            // -- in fictecpagos
 
             std::string sError;
             if (!wallet->AddAnonInputs(nTotalOut, nRingSize, vecSend, vecChange, wtxNew, nFeeRequired, false, sError))

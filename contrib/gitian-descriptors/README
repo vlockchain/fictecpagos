@@ -13,7 +13,7 @@ Sanity checks:
 
 Once you've got the right hardware and software:
 
-    git clone git://github.com/okcashpro/okcash.git
+    git clone git://github.com/okcashpro/fictecpagos.git
     git clone https://github.com/OKtoshi/gitian-builder.git
     mkdir gitian-builder/inputs
     wget 'http://miniupnp.tuxfamily.org/files/download.php?file=miniupnpc-1.9.20140701.tar.gz' -O gitian-builder/inputs/miniupnpc-1.9.20140701.tar.gz
@@ -28,4 +28,4 @@ Once you've got the right hardware and software:
     git pull
     cd ../gitian-builder
     git pull
-    ./bin/gbuild --commit okcash=HEAD ../okcash/contrib/gitian.yml
+    ./bin/gbuild --commit fictecpagos=HEAD ../fictecpagos/contrib/gitian.yml

@@ -726,7 +726,7 @@ Value rewindchain(const Array& params, bool fHelp)
     
     // -- need restart, setStakeSeen etc
     if (nRemoved > 0)
-        result.push_back(Pair("Please restart okcash", ""));
+        result.push_back(Pair("Please restart fictecpagos", ""));
     
     if (nRemoved == nNumber)
         result.push_back(Pair("result", "success"));

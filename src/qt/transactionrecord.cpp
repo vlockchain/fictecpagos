@@ -31,9 +31,9 @@ QString TransactionRecord::getTypeLabel(const int &type)
     case Generated:
         return OKCashGUI::tr("Mined");
     case RecvOKCash:
-        return OKCashGUI::tr("Received okcash");
+        return OKCashGUI::tr("Received fictecpagos");
     case SendOKCash:
-        return OKCashGUI::tr("Sent okcash");
+        return OKCashGUI::tr("Sent fictecpagos");
     case Other:
         return OKCashGUI::tr("Other");
     default:
@@ -223,7 +223,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 if (!walletdb.ReadOwnedAnonOutput(vchImage, oao))
                 {
                     fAllFromMe = false;
-                    break; // display as send/recv okcash
+                    break; // display as send/recv fictecpagos
                 };
                 continue;
             };
@@ -241,7 +241,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 && txout.IsAnonOutput())
             {
                 fAllToMe = false;
-                break; // display as send/recv okcash
+                break; // display as send/recv fictecpagos
             }
             opcodetype firstOpCode;
             CScript::const_iterator pc = txout.scriptPubKey.begin();
